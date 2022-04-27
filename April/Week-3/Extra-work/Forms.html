@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            body{
+                background-image: url("https://img.freepik.com/free-vector/white-seamless-weave-pattern-background-vector_53876-111595.jpg?size=626&ext=jpg&ga=GA1.1.1575906490.1650770917");
+                background-size: cover;
+            }
+            #css{
+                text-align: center;
+                border: 2px solid black;
+                width: 500px;;
+                color="white";
+                background-color: lightblue; 
+                margin: 0px auto;
+                padding: 30px;
+            }
+            #button{
+                padding: 2px;
+                max-width: 100px;
+            }
+            #signin{
+                color: blue;
+            }
+            #cssh1{
+                color: red;
+            }    
+        </style>
+    </head>
+    <body>
+        <a name="Some_Forms"></a>
+        <h1 align="center"><u>Some Forms Design</u></h1>
+        <ol>
+            <li><b>Login Page</b></li>
+                <ol type="i">
+                    <li><a href="#LOG_without_CSS"><b>Without CSS</b></a></li>
+                    <li><a href="#LOG_with_CSS"><b>With CSS</b></a></li>
+                </ol>
+            <li><a href="#Dep_Arri_time"><b>Departure time and Arrival time</b></a></li>
+            <li><a href="#Dep_Arri_date"><b>Departure date and Arrival date</b></a></li>
+            <li><a href="#Search_Engine"><b>Search Engine</b></a></li>
+            <li><a href="#Registration_Form"><b>Create a Registration Form</b></a></li>
+        </ol>
+        <a name="LOG_without_CSS"></a>
+        <a href="#Some_Forms"><h2 align="center">Log in(without CSS)</h2></a>
+        <table align="center">
+            <tr>
+                <td bgcolor="black"><font color="white" size="5">
+                    <table>
+                        <tr>
+                            <td bgcolor="yellow">
+                                <form>  
+                                    <p align="center"><font color="black">New to Headspace</font> <a href="#Registration_Form"><b>Sign up for a free trail</b></a></p>
+                                    <p align="center">
+                                        <input type="tel" value="9876245673"  placeholder="Enter Phone Number" size="60"/><br><br>
+                                        <input type="password" value="12345678" placeholder="Enter Password" size="60"/><br><br>
+                                        <input type="button" value="LOG IN">
+                                        <a href="#Registration_Form"><input type="button" value="Register"/></a>
+                                    </p>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <a name="LOG_with_CSS"></a>
+        <a href="#Some_Forms"><h2 align="center" id="cssh1">Log in(with CSS)</h2></a>
+        <div id="css">
+            <form>
+                New to Headspace <b id="signin">Sign up for a free trail</b>
+                <p align="center">
+                    <input type="tel" value="9876245673"  placeholder="Enter Phone Number" size="60"/><br><br>
+                    <input type="password" value="12345678" placeholder="Enter Password" size="60"/><br>
+                    <table>
+                        <tr>
+                            <input type="button" value="LOG IN">
+                        </tr>
+                    </table>
+                </p>
+            </form>
+        </div>
+        <br>
+        <br>
+        <a name="Dep_Arri_time"></a>
+        <a href="#Some_Forms"><h2 align="center">Departure and Arrival time</h2></a>
+        
+        <table align="center">
+            <tr>
+                <td bgcolor="black">
+                    <table align="center">
+                        <tr >
+                            <td bgcolor="green">
+                                <form>
+                                    <table align="center">
+                                        <tr>
+                                            <td><label>Departure Time</label></td>
+                                            <td><input type="time"  size="60"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Arrival Time</label></td>
+                                            <td><input type="time" size="60"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="center"><input type="submit"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <a name="Dep_Arri_date"></a>
+        <a href="#Some_Forms"><h2 align="center">Departure and Arrival date</h2></a>
+        <table align="center">
+            <tr>
+                <td bgcolor="black">
+                    <table align="center">
+                        <tr >
+                            <td bgcolor="blue">
+                                <form>
+                                    <table align="center">
+                                        <tr>
+                                            <td><label>Departure Date</label></td>
+                                            <td><input type="date"  size="60"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Arrival Date</label></td>
+                                            <td><input type="date" size="60"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="center"><input type="submit"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <a name="Search_Engine"></a>
+        <a href="#Some_Forms"><h2 align="center">Search Engine</h2></a>
+        <table align="center">
+            <tr>
+                <td bgcolor="black">
+                    <table align="center">
+                        <tr >
+                            <td bgcolor="pink">
+                                <form action="">
+                                    <div >
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <p align="center">
+                                                        <label><b>Search Engine</b></label>
+                                                        <input type="text" list="Lang" size="60"/>
+                                                    </p>
+                                                    <datalist id="Lang">
+                                                        <option>Html</option>
+                                                        <option>CSS</option>
+                                                        <option>Javascript</option>
+                                                        <option>Java</option>
+                                                        <option>React</option>
+                                                        <option>Node Js</option>
+                                                        <option>Angular</option>
+                                                        <option>Mongodb</option>
+                                                        <option>SQL</option>
+                                                    </datalist>
+                                                </td>
+                                                <td>
+                                                    <button>search</button>
+                                                </td>
+                                            </tr>
+                                        </table>    
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table> 
+        <br>
+        <br>
+        <a name="Registration_Form"></a>
+        <a href="#Some_Forms"><h2 align="center">Registration Form</h2></a> 
+        <table align="center">
+            <tr>
+                <td bgcolor="black">
+                    <table border="solid" align="center">
+                        <tr >
+                            <td bgcolor="coral">
+                                <form>
+                                    <table align="center">
+                                        <tr>
+                                            <td><label>First Name</label></td>
+                                            <td><input type="text"  size="60" placeholder="Enter your first name"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Last Name</label></td>
+                                            <td><input type="text" size="60" placeholder="Enter your last name"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Mobile Phone</label></td>
+                                            <td><input type="tel"  size="60" placeholder="Enter your mobile number"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Date of Birth</label></td>
+                                            <td>
+                                                <table>
+                                                <tr>
+                                                    <td><input type="date" size="60"/><br><br></td>
+                                                    <td></td>
+                                                    <td>(DD/MM/YYYY)</td>
+                                                </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Postcode</label></td>
+                                            <td><input type="text" size="60" placeholder="Enter your postcode"/><br><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Gender</label></td>
+                                            <td>
+                                                <table>
+                                                    <tr>
+                                                        <td><input type="radio" name="gender" /><br><br></td>
+                                                        <td><label>Male</label><br><br></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td><input type="radio" name="gender" /><br><br></td>
+                                                        <td><label>Female</label><br><br></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Address</label></td>
+                                            <td><textarea placeholder="Enter your address"></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Add Document</label></td>
+                                            <td><input type="file"</td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Contact Me Via</label></td>
+                                            <td>
+                                                <table>
+                                                    <tr>
+                                                        <td><input type="checkbox" name="contact" /><br><br></td>
+                                                        <td><label>SMS</label><br><br></td>
+                                                        <td><input type="checkbox" name="contact" /><br><br></td>
+                                                        <td><label>Number</label><br><br></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <table align="center">
+                                                <td align="center"><button type="submit">Register</button></td>
+                                                <td align="center"><button type="Reset">Reset</button></td>
+                                            </table>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
