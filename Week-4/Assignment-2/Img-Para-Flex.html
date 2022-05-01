@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .Main{
+            display: flex;
+            justify-content: center;
+            margin: 50px auto;
+            width:800px;
+            height: 300px;
+            column-gap: 20px;
+            align-items: center;
+            background-image: linear-gradient(45deg,red,green,blue,black);
+        }
+        .Image{
+            width:300px;
+        }
+        .Paragraph{
+            width:300px;
+            color:red;
+            font-size: larger;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Main">
+        <div class="Image"><img src= "data:image/png;base64,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" style="border-radius: 50%;"  width="200px" Height="200px"  ></div>
+        <div class="Paragraph"><p><b>A full-stack engineer is a software developer that's writing code not only for the user's front-end web applications or mobile applications, but they're also writing API code that sits in the middle, they're writing server code that sits in the back, and they're also connecting and communicating with databases.</p></b></div>
+    </div>
+</body>
+</html>
