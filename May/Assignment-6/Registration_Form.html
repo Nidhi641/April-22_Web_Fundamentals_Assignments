@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fontawesome.com/search?q=email&s=solid%2Cbrands">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Registration Form</title>
+</head>
+<body class="bg-secondary">
+<div class="container mt-5 mb-5">
+
+    <!-- form started -->
+    <form action="#" class="bg-white">
+        <br>
+        <h1 class="text-center">Reponsive Registration Form</h1>
+        <br>
+    
+        <!-- Email Field -->
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text " style="height: 40px ;">
+                    <i class="fa fa-envelope"></i>
+                </div>
+            </div>
+            <input type="email" class="form-control" placeholder="Email">
+        </div>  
+
+        <!-- Password Field -->
+        <div class="form-group input-group mt-3">
+            <div class="input-group-prepend">
+                <div class="input-group-text " style="height: 40px;">
+                    <i class="fa fa-lock"></i>
+                </div>
+            </div>
+            <input type="password" class="form-control" placeholder="Password">
+        </div>  
+
+        <!-- Re-type Password Field -->
+        <div class="form-group input-group mt-3">
+            <div class="input-group-prepend">
+                <div class="input-group-text " style="height: 40px;">
+                    <i class="fa fa-lock"></i>
+                </div>
+            </div>
+            <input type="password" class="form-control" placeholder="Re-type Password">
+        </div>  
+
+        <!-- First & Last Name Field-->
+        <div class="row mt-3">
+            <div class="col">
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text " style="height: 40px;">
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text " style="height: 40px;">
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+        </div>
+
+        <!-- Gender Field -->
+        <div class="form-check form-check-inline mt-3">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+          </div>
+
+        <!-- Select Country Field -->
+        <select class="form-select mt-3">
+            <option selected>Select Country</option>
+            <option value="1">Afghanistan</option>
+            <option value="2">Australia</option>
+            <option value="3">Bangladesh</option>
+            <option value="4">Canada</option>
+            <option value="5">China</option>
+            <option value="6">England</option>
+            <option value="7">France</option>
+            <option value="8">Germany</option>
+            <option value="9">India</option>
+            <option value="10">Italy</option>
+            <option value="11">Japan</option>
+            <option value="12">Nepal</option>
+            <option value="13">New Zealand</option>
+            <option value="14">North Korea</option>
+            <option value="15">Pakistan</option>
+            <option value="16">Poland</option>
+            <option value="17">Russia</option>
+            <option value="18">Sin Lanka</option>
+            <option value="19">Ukraine</option>
+            <option value="20">United State of America</option>
+        </select>
+        
+        <!-- Term & Condition Field -->
+        <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                I agree with terms and conditions
+            </label>
+        </div>
+
+        <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                I want to receive the newsletter
+            </label>
+        </div>
+
+        <!-- Register Button -->
+        <div class="mt-3 d-grid">
+            <button class="btn bg-warning text-white " style= "font-size: 20px; font-weight: bolder;">Register</button>
+        </div>
+        <br><br>
+    </form>
+    <!-- end of form -->
+
+</div>
+</body>
+</html>
